@@ -60,3 +60,8 @@ These are the following languages under my treesitter settings for highlighting,
 * typescript
 * astro
 
+---
+
+## License
+
+This config is licensed under the MIT License. Portions are based on [kickstart.nvim](http://github.com/nvim-lua/kickstart.nvim), which is also MIT licensed.
