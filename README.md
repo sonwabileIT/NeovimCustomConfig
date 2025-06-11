@@ -26,6 +26,7 @@ Plugins that I have added:
 * [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 * [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 * [nvimdev/lspsaga.vim](https://github.com/nvimdev/lspsaga.nvim)
+* [catppuccin/nvim](https://github.com/catppuccin/nvim)
 
 ---
 
