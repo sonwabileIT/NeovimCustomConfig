@@ -1081,6 +1081,11 @@ require('lazy').setup({
 
   {
     'rcarriga/nvim-notify',
+    priority = 1000,
+    opts = {
+      render = 'default',
+      stages = 'slide',
+    },
   },
 
   -- Highlight todo, notes, etc in comments
