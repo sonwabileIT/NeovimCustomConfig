@@ -1038,6 +1038,21 @@ require('lazy').setup({
     end,
   },
 
+  {
+    'petertriho/nvim-scrollbar',
+    config = function()
+      require('scrollbar').setup {
+        show = true,
+        show_in_active_only = false,
+        set_highlights = true,
+        folds = 1000,
+        max_lines = false,
+        hide_if_all_visible = true,
+        throttle_ms = 100,
+      }
+    end,
+  },
+
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
 
