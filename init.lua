@@ -1076,8 +1076,7 @@ require('lazy').setup({
   --},
 
   {
-    'folke/snacks.nvim',
-    priority = 1000,
+    'MunifTanjim/nui.nvim',
   },
 
   -- Highlight todo, notes, etc in comments
