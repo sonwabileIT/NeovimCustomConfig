@@ -101,8 +101,9 @@ vim.g.have_nerd_font = true
 --  For more options, you can see `:help option-list`
 
 -- set tabstop distance
-vim.o.tabstop = 4 -- default = 8
-vim.o.shiftwidth = 4 -- default = 8
+vim.o.tabstop = 2 -- default = 8
+vim.o.shiftwidth = 2 -- default = 8
+vim.o.expandtab = true
 
 -- Make line numbers default
 vim.o.number = true
