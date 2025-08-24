@@ -434,7 +434,7 @@ require('lazy').setup({
           lualine_a = { 'mode' },
           lualine_b = { 'branch', 'diff', 'diagnostics' },
           lualine_c = { 'filename' },
-          lualine_x = { 'encoding', 'fileformat', 'filetype', 'lsp_status' },
+          lualine_x = { 'location', 'filetype', 'lsp_status' },
           lualine_y = { 'progress' },
           lualine_z = { 'location' },
         },
@@ -1038,6 +1038,15 @@ require('lazy').setup({
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'catppuccin'
+    end,
+  },
+
+  --oxocarbon theme
+  {
+    'nyoom-engineering/oxocarbon.nvim',
+    name = 'oxocarbon',
+    config = function()
+      vim.cmd.colorscheme 'oxocarbon'
     end,
   },
 
